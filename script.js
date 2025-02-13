@@ -9,6 +9,7 @@ OTPinputs.forEach((input) => {
     const nextInput = currentInput.nextElementSibling;
 
     if (currentInput.value.length > 1 && currentInput.value.length == 2) {
+      // currentInput.value = this.value;
       currentInput.value = "";
     }
 
